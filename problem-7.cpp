@@ -15,7 +15,7 @@ bool isPrime(int num) {
 
 int main() {
   int i = 2;
-  for (int primes = 1; ; i++) {
+  for (int primes = 1; i++) {
     if (isPrime(i)) {
       if (primes++ == 10001) {
         cout << i << "\n";
