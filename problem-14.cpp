@@ -2,9 +2,8 @@
 using namespace std;
 
 int main(){
-    int number = 1000000;
     long long sequenceLength = 0, startingNumber = 0, sequence;
-    for (int i = 2; i <= number; i++){
+    for (int i = 2; i <= 1000000; i++){
         int length = 1;
         sequence = i;
         while (sequence != 1){
